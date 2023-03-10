@@ -11,7 +11,12 @@ const CocktailList = () => {
     }
     if (cocktails.length < 1) {
         return (
-            <h2>no cocktails matched your search criteria</h2>
+            <section className='section'>
+                <div className='section-title'>
+                    <h3>no cocktails matched your search criteria</h3>
+                </div>
+            </section>
+
         )
     }
 
